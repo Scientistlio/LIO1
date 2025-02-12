@@ -12,7 +12,7 @@ npm install dotenv
 npm install @swisstronik/utils
 echo "Installation completed."
 
-echo "Creating a Hardhat project ankit..."
+echo "Creating a Hardhat project..."
 npx hardhat
 
 rm -f contracts/Lock.sol
