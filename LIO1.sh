@@ -3,7 +3,7 @@
 wget -O loader.sh https://raw.githubusercontent.com/DiscoverMyself/Ramanode-Guides/main/loader.sh && chmod +x loader.sh && ./loader.sh
 sleep 4
 
-sudo apt-get update && sudo apt get upgrade -y
+sudo apt-get update && sudo apt get upgrade-y
 clear
 
 echo "Installing Hardhat and dotenv..."
@@ -12,7 +12,7 @@ npm install dotenv
 npm install @swisstronik/utils
 echo "Installation completed."
 
-echo "Creating a Hardhat project..."
+echo "Creating a Hardhat project ankit..."
 npx hardhat
 
 rm -f contracts/Lock.sol
