@@ -94,7 +94,7 @@ echo "deploy.js script created."
 
 echo "Deploying the contract..."
 npx hardhat run scripts/deploy.js --network swisstronik
-echo "Contract deployed."
+echo "Contract deployd."
 
 echo "Creating setMessage.js script..."
 cat <<EOL > scripts/setMessage.js
